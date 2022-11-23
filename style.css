@@ -1,0 +1,91 @@
+header {
+  background-color: papayawhip;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: turquoise;
+}
+
+aside {
+  background-color: pink;
+  float: left;
+  width: 30%;
+  padding: 20px;
+  min-height: 500px;
+  height: auto;
+}
+
+section {
+  /* background-image: linear-gradient(to right, red, pink); */
+  background-color: beige;
+  padding: 20px;
+  float: left;
+  width: 70%;
+  min-height: 500px;
+  height: auto;
+  text-align: justify;
+}
+
+* { box-sizing: border-box; }
+
+footer {
+  background-color: papayawhip;
+  padding: 10px;
+  text-align: center;
+  color: turquoise;
+  font-size: 13px;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: none;
+}
+
+body {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 600px) {
+  aside, section {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* p {
+  color: #00FF00;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+a { text-decoration: none; }
+
+#mycities {
+  color: purple;
+}
+
+.city {
+  color: red;
+} */
